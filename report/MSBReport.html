@@ -1,0 +1,59 @@
+<meta charset="UTF-8"><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.5/css/jquery.dataTables.css"><style type="text/css">a{color: #0254EB}a:visited { color: #0254EB}a.morelink { text-decoration:none; outline: none;}.morecontent span { display:none;}.comment { width: 400px; background-color: #f0f0f0; margin: 10px;}body{font-family: Verdana, Arial, Helvetica, sans-serif}table{width: 800px !important;}thead{background-color: #25a136 !important;}table th{font-size: 13px;font-weight: 400 !important;background-color: #CCCCCC;color: #fff !important;}table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1{background-color: #fff; !important;border-left: 1px solid #ccc;font-weight: bold}table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1{background-color: #fff; !important;border-left: 1px solid #ccc;font-weight: bold}table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{background-color: #fff; !important;}table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.even{background-color: #fff; !important;padding-top: 15px;padding-bottom: 15px;}tbody{border-left: 1px solid #ccc;}tbody td{border-right: 1px solid #ccc;}table.dataTable.display tbody tr.even > .sorting_1,table.dataTable.order-column.stripe tbody tr.even > .sorting_1:hover{background-color: #fff; !important;}table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.display tbody tr.odd:hover > .sorting_1, table.dataTable.display tbody tr.even:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr.odd:hover > .sorting_1, table.dataTable.order-column.hover tbody tr.even:hover > .sorting_1{background-color: #fff; !important;}table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1:hover{background-color: #fff; !important;}table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd:hover{background-color: #fff; !important;}table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.even:hover{background-color: #fff; !important;padding-top: 15px;padding-bottom: 15px;}table td{font-size: 11px;font-weight: 400;vertical-align: top;}#example_info{font-size: 12px;color: #000;float: left;margin-left: 15px;}#example_paginate{font-size: 12px;color: #fff !important;}a.paginate_button previous disabled{color: #ddd !important}#example_wrapper{background-color: #ededed;float: left;}#example_length{color: #000 !important;font-size: 12px !important;float: left;margin-left: 15px;margin-top: 15px;margin-bottom: 15px;}#example_filter{float: right;color: #000 !important;font-size: 12px !important;margin-left: 15px;margin-top: 15px;margin-bottom: 15px;margin-right: 180px;}table.extra_table{width: 100% !important;}table.extra_table thead{background-color: #25a136 !important;}.extra_table th{padding: 10px 0px;font-weight: bold !important;color: #fff !important;background: none !important}.extra_table td{text-align: center;color: #000;padding: 10px 0px;}</style><script src="https://code.jquery.com/jquery-1.11.1.min.js"></script><script src="https://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script><script>$(document).ready(function() { $('#example').dataTable({"iDisplayLength": 100});} );</script><script>$(document).ready(function(){var showChar=100;var ellipsestext="...";var moretext = "more";var lesstext = "less";$('.more').each(function() { var content = $(this).html();if(content.length > showChar){var c = content.substr(0, showChar);var h = content.substr(showChar-1, content.length - showChar);var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';$(this).html(html);}});$(".morelink").click(function(){if($(this).hasClass("less")) { $(this).removeClass("less");$(this).html(moretext);} else {$(this).addClass("less");$(this).html(lesstext);}$(this).parent().prev().toggle();$(this).prev().toggle();return false; });});</script><table id="example" class="display" cellspacing="0" width="100%"><thead><tr><th>Count</th><th>Description</th><th>User</th><th>Time</th><th>Success</th><th>Error</th><th>Error Path</th></tr></thead><tbody><tr><td>1</td><td>Search Account</td><td>Admin</td><td>0</td><td class="comment more"></td><td class="comment more"> Error in Search Account .. org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='accordian_my']/div/h4/a/span"}
+Command duration or timeout: 30.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.45', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//div[@id='accordian_my']/div/h4/a/span}
+Session ID: 1f2a1777-7ddc-492a-94a4-f82ed43f9d02
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.util.MSBUtils.leftMenu(MSBUtils.java:136)
+	at com.msb.account.AccountSearch.testSearchAccount(AccountSearch.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at com.msb.util.SeleniumRun.main(SeleniumRun.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='accordian_my']/div/h4/a/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.45', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6407426893957839421webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6407426893957839421webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</td><td> <a href=file://D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\report\searchAccount.png target='_blank'><img src=file://D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\report\searchAccount.png alt='imgage' height='42' width='42'></a></td></tr><tr><td>2</td><td>Admin</td><td>Site-Administrator</td><td>0 min 7 sec</td><td class="comment more">Success AdminLogin </td><td class="comment more"></td><td></td></tr><tr><td>3</td><td>Admin</td><td>Customer Admin</td><td>0 min 7 sec</td><td class="comment more">Success Customer Admin </td><td class="comment more"></td><td></td></tr><table class="extra_table"><thead><tr><th>#</th><th>Page Name</th><th>Success</th><th>Fail</th><th>Warning</th><th>Remarks</th></tr></thead><tbody><tr><td>1</td><td>Search Account</td><td></td><td>1</td><td></td></tr><tr><td>2</td><td>Admin</td><td>2</td><td></td><td></td></tr>

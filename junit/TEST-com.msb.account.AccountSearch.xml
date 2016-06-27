@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="miracle-PC" name="com.msb.account.AccountSearch" skipped="0" tests="1" time="77.705" timestamp="2016-06-27T15:11:52">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="19336589eafab134" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes" />
+    <property name="env.COMPUTERNAME" value="MIRACLE-PC" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#18" />
+    <property name="ant.file.MSB" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\build.xml" />
+    <property name="env.HOMEPATH" value="\Users\miracle" />
+    <property name="user.name" value="miracle" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="MSB" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="env.TEMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.7.0_51\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../../Selenium/eclipse" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="env.BUILD_NUMBER" value="18" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\miracle\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.HUDSON_COOKIE" value="2a7556aa-0dc4-46a1-aa14-6e1400aa7cb9" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="env.USERPROFILE" value="C:\Users\miracle" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.MSB" value="file" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.7\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JOB_NAME" value="ServicesBay" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_51" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\miracle\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.BUILD_TAG" value="jenkins-ServicesBay-18" />
+    <property name="target" value="1.7" />
+    <property name="user.home" value="C:\Users\miracle" />
+    <property name="env.JENKINS_HOME" value="C:\Users\miracle\.jenkins" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/ServicesBay/" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_51/bin;C:\Program Files\Java\jdk1.7.0_51/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.9.7\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.7.0_51\bin;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.HUDSON_HOME" value="C:\Users\miracle\.jenkins" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="19336589eafab134" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\bin;D:\Selenium\jars\ApacheJMeter_core.jar;D:\Selenium\jars\ApacheJMeter_java.jar;D:\Selenium\jars\apache-logging-log4j.jar;D:\Selenium\jars\apache-mime4j-0.6.jar;D:\Selenium\jars\bsh-1.3.0.jar;D:\Selenium\jars\cglib-nodep-2.1_3.jar;D:\Selenium\jars\commons-codec-1.9.jar;D:\Selenium\jars\commons-collections-3.2.1.jar;D:\Selenium\jars\commons-exec-1.1.jar;D:\Selenium\jars\commons-io-2.4.jar;D:\Selenium\jars\commons-jxpath-1.3.jar;D:\Selenium\jars\commons-lang3-3.3.2.jar;D:\Selenium\jars\commons-logging-1.1.3.jar;D:\Selenium\jars\cssparser-0.9.14.jar;D:\Selenium\jars\ExcelReportGenerator-4.0.1.jar;D:\Selenium\jars\extentreports-java-2.40.2.jar;D:\Selenium\jars\freemarker-2.3.23.jar;D:\Selenium\jars\gson-2.3.1.jar;D:\Selenium\jars\guava-18.0.jar;D:\Selenium\jars\guice-4.0.jar;D:\Selenium\jars\hamcrest-core-1.3.jar;D:\Selenium\jars\hamcrest-library-1.3.jar;D:\Selenium\jars\htmlunit-2.15.jar;D:\Selenium\jars\htmlunit-core-js-2.15.jar;D:\Selenium\jars\httpclient-4.3.6.jar;D:\Selenium\jars\httpcore-4.3.3.jar;D:\Selenium\jars\httpmime-4.3.6.jar;D:\Selenium\jars\ini4j-0.5.2.jar;D:\Selenium\jars\jcommander-1.29.jar;D:\Selenium\jars\jetty-websocket-8.1.8.jar;D:\Selenium\jars\jna-3.4.0.jar;D:\Selenium\jars\jna-platform-3.4.0.jar;D:\Selenium\jars\jorphan-2.6.jar;D:\Selenium\jars\jsoup-1.8.3.jar;D:\Selenium\jars\junit-dep-4.11.jar;D:\Selenium\jars\jxl.jar;D:\Selenium\jars\jxl-2.6.jar;D:\Selenium\jars\log4j-1.2.16.jar;D:\Selenium\jars\logkit-1.2.2.jar;D:\Selenium\jars\nekohtml-1.9.21.jar;D:\Selenium\jars\netty-3.5.7.Final.jar;D:\Selenium\jars\operadriver-1.5.jar;D:\Selenium\jars\org.apache.httpclient-sources.jar;D:\Selenium\jars\org.testng.eclipse_6.8.6.20141201_2240.jar;D:\Selenium\jars\org.testng.feature_5.9.0.4.jar;D:\Selenium\jars\phantomjsdriver-1.2.1.jar;D:\Selenium\jars\poi-3.9.jar;D:\Selenium\jars\poi-3.12-20150511.jar;D:\Selenium\jars\poi-examples-3.12-20150511.jar;D:\Selenium\jars\poi-excelant-3.12-20150511.jar;D:\Selenium\jars\poi-ooxml-3.12-20150511.jar;D:\Selenium\jars\poi-ooxml-schemas-3.12-20150511.jar;D:\Selenium\jars\poi-scratchpad-3.12-20150511.jar;D:\Selenium\jars\protobuf-java-2.4.1.jar;D:\Selenium\jars\reportng-1.1.4.jar;D:\Selenium\jars\sac-1.3.jar;D:\Selenium\jars\selenium-java-2.45.0.jar;D:\Selenium\jars\selenium-java-2.45.0-srcs.jar;D:\Selenium\jars\selenium-java-client-driver.jar;D:\Selenium\jars\selenium-server-standalone-2.44.0.jar;D:\Selenium\jars\selenium-server-standalone-2.45.0.jar;D:\Selenium\jars\selenium-server-standalone-2.46.0.jar;D:\Selenium\jars\serialization-java-1.2.0.GA.jar;D:\Selenium\jars\serializer-2.7.1.jar;D:\Selenium\jars\sqlite-jdbc-3.8.11.1.jar;D:\Selenium\jars\testng-6.8.5.jar;D:\Selenium\jars\velocity-dep-1.4.jar;D:\Selenium\jars\xalan-2.7.1.jar;D:\Selenium\jars\xercesImpl-2.11.0.jar;D:\Selenium\jars\xml-apis-1.4.01.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\junit-dep-4.11.jar;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.msb.account.AccountSearch skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\junit\TEST-com.msb.account.AccountSearch.xml crashfile=D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\junitvmwatcher1244587647995590239.properties propsfile=D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\junit8940926128995556609.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\MIRACLE-PC" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.9.7" />
+    <property name="java.io.tmpdir" value="C:\Users\miracle\AppData\Local\Temp\" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/ServicesBay/18/" />
+    <property name="env.PROCESSOR_REVISION" value="2505" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.=D:" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace" />
+    <property name="env.BUILD_ID" value="18" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\miracle\AppData\Local" />
+    <property name="user.dir" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre7" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.7.0_51/bin;C:\Program Files\Java\jdk1.7.0_51/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.9.7\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.7.0_51\bin" />
+    <property name="basedir" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="env.USERNAME" value="miracle" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.WORKSPACE" value="D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace" />
+    <property name="env.USERDOMAIN" value="miracle-PC" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="env.=C:" value="C:\Users\miracle" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.msb.account.AccountSearch" name="testSearchAccount" time="77.454">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;dropdownMenu2&apos;]/font/span/i&quot;}&#xa;Command duration or timeout: 30.10 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;&#xa;System info: host: &apos;miracle-PC&apos;, ip: &apos;172.17.7.45&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#xa;*** Element info: {Using=xpath, value=//a[@id=&apos;dropdownMenu2&apos;]/font/span/i}&#xa;Session ID: 86d51c2d-8624-4c9f-8f99-0cb69e35f70d&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;dropdownMenu2&apos;]/font/span/i&quot;}
+Command duration or timeout: 30.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;miracle-PC&apos;, ip: &apos;172.17.7.45&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//a[@id=&apos;dropdownMenu2&apos;]/font/span/i}
+Session ID: 86d51c2d-8624-4c9f-8f99-0cb69e35f70d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.util.MSBUtils.userLogOut(MSBUtils.java:95)
+	at com.msb.account.AccountSearch.testSearchAccount(AccountSearch.java:119)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;dropdownMenu2&apos;]/font/span/i&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;miracle-PC&apos;, ip: &apos;172.17.7.45&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous1060084158937729783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous1060084158937729783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</error>
+  </testcase>
+  <system-out><![CDATA[running from Selenium
+Error in Search Account .. 
+RULEID PATHsearchAccount.png
+Error Image pathD:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\report\searchAccount.png
+FROM=======>C:\Users\miracle\AppData\Local\Temp\screenshot4079528243987838406.png
+TO=======>D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace\report\searchAccount.png
+Destination file doesn't exist. Creating one!
+Search Account searchAccount
+Location--->/C:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace
+Entered writelog
+2016/06/27
+filepath-->D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace//report/
+Was file deleted ? : false
+D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace//report/MSBReport.txt
+Time---->
+2016/06/27
+Was file deleted ? : false
+D:\SVN_hubble\trunk\MSBWorkSpace\MSBWorkSpace//report/MSBReport.html
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Jun 27, 2016 8:42:38 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='accordian_my']/div/h4/a/span"}
+Command duration or timeout: 30.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.45', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//div[@id='accordian_my']/div/h4/a/span}
+Session ID: 86d51c2d-8624-4c9f-8f99-0cb69e35f70d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.util.MSBUtils.leftMenu(MSBUtils.java:136)
+	at com.msb.account.AccountSearch.testSearchAccount(AccountSearch.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='accordian_my']/div/h4/a/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.45', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous1060084158937729783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous1060084158937729783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]></system-err>
+</testsuite>
