@@ -49,7 +49,7 @@ public class AddAccount {
 //			    To generate new account name
 			    String accName= genData.generateRandomString(8);
 			    System.out.println("Account Name------>"+accName);
-		      driver.findElement(By.id("account_name")).sendKeys(accName);
+//		      driver.findElement(By.id("account_name")).sendKeys(accName);
 			    driver.findElement(By.id("account_url")).clear();
 			    String accURL="www."+accName+".com";
 			    System.out.println("URL------>"+accURL);
@@ -58,7 +58,7 @@ public class AddAccount {
 			    driver.findElement(By.id("email_ext")).clear();
 			    String emailExt=accName+".com";
 			    System.out.println("URL------>"+emailExt);
-//		        driver.findElement(By.id("email_ext")).sendKeys(emailExt);
+		        driver.findElement(By.id("email_ext")).sendKeys(emailExt);
 			    driver.findElement(By.id("address1")).clear();
 			    driver.findElement(By.id("address1")).sendKeys("hatro");
 			    driver.findElement(By.id("address2")).clear();
@@ -80,11 +80,11 @@ public class AddAccount {
 			    driver.findElement(By.id("description")).clear();
 			    driver.findElement(By.id("description")).sendKeys("Garments Company , Test data");
 			    driver.findElement(By.id("addaccountsave")).click();
-//			    Thread.sleep(4000);	
+			    Thread.sleep(1000);	
 			    WebElement  msg =driver.findElement(By.id("resultMessage"));
 			    String resMessage=msg.getText();
 			    System.out.println("Message--->"+resMessage);
-			    if(resMessage.equals("Enter account_name")){
+			    if(resMessage.equals("Enter account name")){
 			    	errorMessage += " Error in Add Account .. " + "Please Enter Account Name";
 			    	MSBUtils.takeScreenShot(driver, repbean);
 			    }else if(resMessage.equals("Enter account_url")){

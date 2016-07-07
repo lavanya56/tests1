@@ -22,7 +22,7 @@ static MsbExl xlsUtil;
 public static WebDriver driver;
 public AllLogin() throws BiffException, IOException
 {
-   xlsUtil = new MsbExl("F://SeleniumLoginWorkspace//MSB_Login.xls");
+   xlsUtil = new MsbExl("D://SeleniumLoginWorkspace//MSB_Login.xls");
    MsbExl.ColumnDictionary();
 }
 @Test

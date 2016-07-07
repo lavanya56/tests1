@@ -26,8 +26,9 @@ public class SeleniumRun {
  
 
 			junit.run(AccountSearch.class);//done
-//		    junit.run(AddAccount.class);//done
+		    //junit.run(AddAccount.class);//done
 //			junit.run(EditAccount.class);//done	
+//			junit.run(EditProfile.class); //done 
 //			junit.run(AssignAccount.class);//done
 //			junit.run(RequirementDashboard.class);//done
 //			junit.run(DashboardProject.class);//done
@@ -36,11 +37,12 @@ public class SeleniumRun {
 //			junit.run(ActionAuthorization.class); //done
 //			junit.run(HomeRedirect.class);//done
 //			junit.run(AccountUpload.class);//done
+			
 //			junit.run(ContactUpload.class);	//done
 //			junit.run(ContactDetails.class);//done
 //			junit.run(AttachmentDetails.class);//done
 //			junit.run(LocationDetails.class);
-//			junit.run(EditProfile.class); //done 
+			 //done 
 //	        junit.run(Timesheet.class); //done
 //			junit.run(TaskDetails.class); //done
 //			junit.run(CostCenter.class);//done
@@ -58,8 +60,8 @@ public class SeleniumRun {
 //			junit.run(VendorRequirement.class);//done
 //			junit.run(Question.class);         //issue
 //			junit.run(UploadQuestion.class);   // issue
-			junit.run(AdminLogin.class);
-			junit.run(CustomerAdmin.class);	
+//			junit.run(AdminLogin.class);
+//			junit.run(CustomerAdmin.class);	
 //			junit.run(CustomerEmployee.class);
 //			junit.run(CustomerTeamLead.class);
 //			junit.run(Director.class);

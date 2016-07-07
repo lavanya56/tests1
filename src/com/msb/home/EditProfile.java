@@ -56,7 +56,7 @@ public class EditProfile {
 		    driver.findElement(By.id("imageupdate")).sendKeys(Paths.get("").toAbsolutePath()+"\\sample\\profile.jpg");
 		    driver.findElement(By.id("profileImageUpdateButton")).click();
 		    driver.findElement(By.id("ContactFname")).clear();
-		    driver.findElement(By.id("ContactFname")).sendKeys("Nagireddy");
+		    driver.findElement(By.id("ContactFname")).sendKeys("Nagireddy1");
 		    driver.findElement(By.id("ContactLname")).clear();
 		    driver.findElement(By.id("ContactLname")).sendKeys("Seerapu");
 //		    driver.findElement(By.id("ContactLname")).sendKeys("Se");

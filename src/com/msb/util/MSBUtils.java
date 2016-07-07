@@ -349,26 +349,24 @@ System.out.println("Inside if");
 		System.out.println("Entered displayTableReport===========");
 		String retunValue = "";
 		try {
-			Iterator<Map.Entry<String, HashMap<String, Integer>>> parent = valPgsAdCntByCat
-					.entrySet().iterator();
+			Iterator<Map.Entry<String, HashMap<String, Integer>>> parent = valPgsAdCntByCat.entrySet().iterator();
+			System.out.println("parent-->"+parent);
 			String totalReporttabl = "<table class=\"extra_table\"><thead><tr><th>#</th><th>Page Name</th><th>Success</th><th>Fail</th><th>Warning</th><th>Remarks</th></tr></thead><tbody>";
 			int count = 1;
 			while (parent.hasNext()) {
 
 				totalReporttabl += "<tr><td>" + count++ + "</td>";
-				Map.Entry<String, HashMap<String, Integer>> parentPair = parent
-						.next();
+				Map.Entry<String, HashMap<String, Integer>> parentPair = parent.next();
 				totalReporttabl += "<td>" + parentPair.getKey() + "</td>";
-				Iterator<Map.Entry<String, Integer>> child = (parentPair
-						.getValue()).entrySet().iterator();
+				Iterator<Map.Entry<String, Integer>> child = (parentPair.getValue()).entrySet().iterator();
 				String Warning = "";
 				String Success = "";
 				String Fail = "";
 				while (child.hasNext()) {
 
 					Map.Entry childPair = child.next();
-					System.out.println("childPair.getValue()"
-							+ childPair.getValue());
+	System.out.println("childPair.getValue()"+ childPair.getValue());
+	
 					if ("Warning".equalsIgnoreCase("" + childPair.getKey())) {
 						Warning = "" + childPair.getValue();
 					}
@@ -387,13 +385,14 @@ System.out.println("Inside if");
 
 			}
 			totalReporttabl += "</tbody></table>";
-			System.out.println(totalReporttabl);
+			System.out.println("totalReporttabl-->"+totalReporttabl);
 			reportHtmlResult = totalReporttabl;
 			writeHtmlLog(reportHtmlResult);
-
+          System.out.println("displayTableReport ending");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		System.out.println("retunValue--"+retunValue);
 		return retunValue;
 	}
 
@@ -561,13 +560,19 @@ System.out.println("Inside if");
 	 */
 	public static WebDriver getDriver() {
 		if (driver == null) {
-			System.out.println("running from Selenium");
+			//System.out.println("running from Selenium");
+			try{
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 //			String baseUrl = "http://172.17.0.164:8080/";
 			String baseUrl = "http://192.168.1.239:8080/";
 			driver.get(baseUrl + "msb/");
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+			}
 			return driver;
 		} else {
 			return driver;

@@ -95,7 +95,7 @@
         <delete dir="bin"/>
     </target>
     <target depends="clean" name="cleanall"/>
-    <target depends="SeleniumRun" name="build"/>
+    <target depends="amar" name="build"/>
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
@@ -186,10 +186,8 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-             <test name="com.msb.login.CustomerAdmin" todir="${junit.output.dir}"/>
-			 <test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
-			 <test name="com.msb.utilities.ActionAuthorization" todir="${junit.output.dir}"/>
-            <classpath refid="MSB.classpath"/>
+			<test name="com.msb.account.AccountSearch" todir="${junit.output.dir}"/>
+              <classpath refid="MSB.classpath"/>
         </junit>
     </target>
 	
