@@ -52,12 +52,7 @@ public class AccountSearch {
     driver.findElement(By.id("accountSearchButton")).click();
     driver.findElement(By.id("accountName")).clear();
     driver.findElement(By.id("accountName")).sendKeys("interfaceer");
-    driver.findElement(By.id("accountSearchButton")).click();
-    driver.findElement(By.id("accountName")).clear();
-    driver.findElement(By.id("accountName")).sendKeys("i");
-    driver.findElement(By.id("accountSearchButton")).click();
-    new Select(driver.findElement(By.id("accountType"))).selectByVisibleText("Customer");
-    driver.findElement(By.id("accountSearchButton")).click();
+    
     new Select(driver.findElement(By.id("Countries"))).selectByVisibleText("Australia");
     driver.findElement(By.cssSelector("option[value=\"1\"]")).click();
     driver.findElement(By.id("accountSearchButton")).click();
